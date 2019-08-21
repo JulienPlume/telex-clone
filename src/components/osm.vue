@@ -1645,16 +1645,13 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  data() {
+  name: 'old school matrix',
+  data () {
     return {
-      msg: 'Welcome to Your Vue.js App',
-    };
-  },
-  computed: {
-    // item-0110: 'a'
+      msg: ''
+    }
   }
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -1676,10 +1673,5 @@ export default {
   /* background-color: blue; */
   color: limegreen;
   background: black;
-  
-}
-.item{
-  /* background-color: blue; */
-  /* font-size: 1em; */
 }
 </style>
